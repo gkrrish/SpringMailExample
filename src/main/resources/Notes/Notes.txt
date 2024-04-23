@@ -6,3 +6,13 @@ https://myaccount.google.com/apppasswords
 
 after getting this, you can user your gmail id, app code as the password for your credentils.
 
+
+
+
+
+
+reference :
+https://www.baeldung.com/spring-email
+https://docs.spring.io/spring-framework/reference/integration/email.html
+https://github.com/Nitesh232/SpringBoot_Email_Service/tree/main
+
