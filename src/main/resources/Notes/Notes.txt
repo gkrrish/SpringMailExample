@@ -16,3 +16,6 @@ https://www.baeldung.com/spring-email
 https://docs.spring.io/spring-framework/reference/integration/email.html
 https://github.com/Nitesh232/SpringBoot_Email_Service/tree/main
 
+
+
+:: By the way we have to use the email things by using the @Async mechanism for seamless delivery
