@@ -1,0 +1,8 @@
+If you want to send the email from the gmail,
+
+you need to get the app code, which is available on this below link.
+
+https://myaccount.google.com/apppasswords
+
+after getting this, you can user your gmail id, app code as the password for your credentils.
+

@@ -14,7 +14,7 @@ public class SendEmailController {
 
 	@GetMapping("/send-email")
 	public String sendEmail() {
-		emailService.sendSimpleMailMessage("recipient@example.com", "Test Email", "This is a test email from Spring Boot.");
+		emailService.sendSimpleMailMessage("abc@gmail.com", "Test Email", "This is a test email from Spring Boot.");
 		return "Email sent successfully!";
 	}
 

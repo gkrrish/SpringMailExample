@@ -2,6 +2,7 @@ package com.abc.service;
 
 import java.io.File;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.mail.SimpleMailMessage;
@@ -14,12 +15,11 @@ import com.abc.utils.EmailUtils;
 
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
-import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
 public class EmailService {
 
+	@Autowired
 	private JavaMailSender mailSender;
 
 	@Value("${spring.mail.username}")
